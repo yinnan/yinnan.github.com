@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[分类：代码块 | 进无止境]]></title>
+  <link href="http://yinnan.github.io/blog/categories/dai-ma-kuai/atom.xml" rel="self"/>
+  <link href="http://yinnan.github.io/"/>
+  <updated>2015-02-03T23:49:58+08:00</updated>
+  <id>http://yinnan.github.io/</id>
+  <author>
+    <name><![CDATA[殷楠]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[代码块示例]]></title>
+    <link href="http://yinnan.github.io/blog/20150203/dai-ma-kuai-shi-li/"/>
+    <updated>2015-02-03T16:05:55+08:00</updated>
+    <id>http://yinnan.github.io/blog/20150203/dai-ma-kuai-shi-li</id>
+    <content type="html"><![CDATA[<p><figure class='code'><figcaption><span>代码块示例</span><a href='http://www.onenotes.net'>我的博客 </a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='C#'><span class='line'><span class="kt">int</span> <span class="p">[]</span> <span class="n">array</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">int</span> <span class="p">[]</span> <span class="p">{</span><span class="m">1</span> <span class="p">,</span><span class="m">2</span> <span class="p">,</span><span class="m">3</span><span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure></p>
+]]></content>
+  </entry>
+  
+</feed>
