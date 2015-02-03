@@ -7,14 +7,50 @@
   </url>
   <url>
     <loc>http://yinnan.github.io/blog/archives/</loc>
-    <lastmod>2015-02-03T12:02:06+08:00</lastmod>
+    <lastmod>2015-02-03T15:53:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://yinnan.github.io/</loc>
-    <lastmod>2015-02-03T12:02:06+08:00</lastmod>
+    <lastmod>2015-02-03T15:53:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://yinnan.github.io/digital/</loc>
+    <lastmod>2015-02-03T15:53:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://yinnan.github.io/tech/</loc>
+    <lastmod>2015-02-03T15:53:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://yinnan.github.io/tech/tmp/</loc>
+    <lastmod>2015-02-03T15:53:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://yinnan.github.io/testpage/</loc>
+    <lastmod>2015-02-03T15:53:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://yinnan.github.io/testpage/mylove.html</loc>
+    <lastmod>2015-02-03T15:53:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://yinnan.github.io/tech/tmp.html</loc>
+    <lastmod>2015-02-03T15:53:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
