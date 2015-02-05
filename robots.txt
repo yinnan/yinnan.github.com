@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://yinnan.github.io/sitemap.xml 
+Sitemap: http://www.onenotes.net/sitemap.xml 

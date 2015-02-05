@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[漫无止境]]></title>
-  <link href="http://www.onenotes.net/atom.xml" rel="self"/>
+  <title><![CDATA[分类：octopress | 漫无止境]]></title>
+  <link href="http://www.onenotes.net/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://www.onenotes.net/"/>
   <updated>2015-02-05T23:45:09+08:00</updated>
   <id>http://www.onenotes.net/</id>
@@ -42,6 +42,7 @@
 </table>
 
 <hr />
+
 <p>####特殊字符自动转换</p>
 
 <p>在HTML文件中，又两个字符需要特殊处理：<code>&lt;</code>和<code>&amp;</code>。<code>&lt;</code>用于起始标签，<code>&amp;</code>符号则用于标记HTML实体，如果你只是想要显示这些字符的原型，你必须要使用实体的形式，像是<code>&amplt;</code>和<code>&ampamp;</code>。</p>
@@ -446,6 +447,7 @@ equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt; ######图片 �
 </code></pre>
 
 <hr />
+
 <p>####其它
 ######自动链接
 Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如：</p>
