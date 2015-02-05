@@ -4,7 +4,7 @@
   <title><![CDATA[漫无止境]]></title>
   <link href="http://www.onenotes.net/atom.xml" rel="self"/>
   <link href="http://www.onenotes.net/"/>
-  <updated>2015-02-05T23:45:09+08:00</updated>
+  <updated>2015-02-06T00:35:42+08:00</updated>
   <id>http://www.onenotes.net/</id>
   <author>
     <name><![CDATA[殷楠]]></name>
@@ -42,7 +42,8 @@
 </table>
 
 <hr />
-<p>####特殊字符自动转换</p>
+
+<h4 id="section-1">特殊字符自动转换</h4>
 
 <p>在HTML文件中，又两个字符需要特殊处理：<code>&lt;</code>和<code>&amp;</code>。<code>&lt;</code>用于起始标签，<code>&amp;</code>符号则用于标记HTML实体，如果你只是想要显示这些字符的原型，你必须要使用实体的形式，像是<code>&amplt;</code>和<code>&ampamp;</code>。</p>
 
@@ -270,7 +271,7 @@ Here is an example of AppleScript:
 &lt;/code&gt;&lt;/pre&gt; 代码区块中，一般的 Markdown 语法不会被转换，像是星号便只是星号，这表示你可以很容易地以 Markdown 语法撰写 Markdown 语法相关的文件。
 </code></pre>
 
-<h6 id="section-1">分隔线</h6>
+<h6 id="section-2">分隔线</h6>
 <p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
 
 <pre><code>* * *
