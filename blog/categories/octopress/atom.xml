@@ -4,7 +4,7 @@
   <title><![CDATA[分类：octopress | 漫无止境]]></title>
   <link href="http://www.onenotes.net/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://www.onenotes.net/"/>
-  <updated>2015-02-06T02:00:27+08:00</updated>
+  <updated>2015-02-06T02:02:02+08:00</updated>
   <id>http://www.onenotes.net/</id>
   <author>
     <name><![CDATA[殷楠]]></name>
@@ -84,8 +84,9 @@
 <hr />
 
 <h4 id="section-2">区块元素</h4>
-<p>######段落换行
-一个Markdown段落是由一个或多个连续的文本组成，它的前后都要有一个以上的空行（空行的定义是显示上看起来像是空得，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。</p>
+
+<h6 id="section-3">段落换行</h6>
+<p>一个Markdown段落是由一个或多个连续的文本组成，它的前后都要有一个以上的空行（空行的定义是显示上看起来像是空得，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。</p>
 
 <p>「由一个或多个连续的文本行组成」这句话其实暗示了Markdown允许段落内的强迫换行（插入换行符），这个特性和其他大部分的text-to-HTML格式不一样（包括Movable Type的「Convert Line Breaks」选项），其它的格式会把每个换行符都换成<code>&lt;br/&gt;</code>标签。</p>
 
@@ -93,7 +94,7 @@
 
 <p>的确，需要多费点事（多加空格）来产生<code>&lt;br /&gt;</code>，但是简单地「每个换行都转换为<code>&lt;br /&gt;</code>」的方法在Markdown中并不合适，Markdown中的	email	式的区块引用和多段落的列表在使用换行来排版的时候，不但更好用，还方便阅读</p>
 
-<h6 id="section-3">标题</h6>
+<h6 id="section-4">标题</h6>
 
 <p>Markdown支持两种标题的语法，类Setext和类atx形式。</p>
 
@@ -290,7 +291,7 @@ Here is an example of AppleScript:
 &lt;/code&gt;&lt;/pre&gt; 代码区块中，一般的 Markdown 语法不会被转换，像是星号便只是星号，这表示你可以很容易地以 Markdown 语法撰写 Markdown 语法相关的文件。
 </code></pre>
 
-<h6 id="section-4">分隔线</h6>
+<h6 id="section-5">分隔线</h6>
 <p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
 
 <pre><code>* * *
