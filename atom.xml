@@ -4,7 +4,7 @@
   <title><![CDATA[漫无止境]]></title>
   <link href="http://www.onenotes.net/atom.xml" rel="self"/>
   <link href="http://www.onenotes.net/"/>
-  <updated>2015-02-06T01:47:07+08:00</updated>
+  <updated>2015-02-06T01:53:25+08:00</updated>
   <id>http://www.onenotes.net/</id>
   <author>
     <name><![CDATA[殷楠]]></name>
@@ -28,12 +28,12 @@
 
 <h4 id="html">兼容HTML</h4>
 
-<pre><code>	例如在Markdown里加上一段HTML表格
-	&lt;table&gt;
+<p>例如在Markdown里加上一段HTML表格</p>
+
+<pre><code>	&lt;table&gt;
 		&lt;th&gt;&lt;td&gt;姓名&lt;/td&gt;&lt;td&gt;年龄&lt;/td&gt;&lt;/th&gt;
 		&lt;tr&gt;&lt;td&gt;coldone&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;
-	&lt;/table&gt;
-	会生成下面的表格：
+	&lt;/table&gt; 会生成下面的表格：
 </code></pre>
 
 <table>
@@ -77,19 +77,23 @@
 
 <p><code>4&amp;lt;</code></p>
 
-<p>不过需要注意的是，code范围内，不论是行内还是区块，<code>&lt;</code>和<code>&amp;</code>两个符号都一定会被转换成HTML实体，这项特性让你可以很容易地用Markdown写HTML code（和HTML相对而言，HTML的语法中，你要把所有的<code>&lt;</code>和<code>&amp;</code>都转换为HTML实体，才能在HTML文件里面写出HTML code。）
-***
-####区块元素
-######段落换行
+<p>不过需要注意的是，code范围内，不论是行内还是区块，<code>&lt;</code>和<code>&amp;</code>两个符号都一定会被转换成HTML实体，这项特性让你可以很容易地用Markdown写HTML code（和HTML相对而言，HTML的语法中，你要把所有的<code>&lt;</code>和<code>&amp;</code>都转换为HTML实体，才能在HTML文件里面写出HTML code。）</p>
+
+<hr />
+
+<h4 id="section-2">区块元素</h4>
+<p>######段落换行
 一个Markdown段落是由一个或多个连续的文本组成，它的前后都要有一个以上的空行（空行的定义是显示上看起来像是空得，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。</p>
 
 <p>「由一个或多个连续的文本行组成」这句话其实暗示了Markdown允许段落内的强迫换行（插入换行符），这个特性和其他大部分的text-to-HTML格式不一样（包括Movable Type的「Convert Line Breaks」选项），其它的格式会把每个换行符都换成<code>&lt;br/&gt;</code>标签。</p>
 
 <p>如果你确实想要依赖Markdown来插入<code>&lt;br/&gt;</code>标签的话，在插入出先按上两个以上的空格然后回车。</p>
 
-<p>的确，需要多费点事（多加空格）来产生<code>&lt;br /&gt;</code>，但是简单地「每个换行都转换为<code>&lt;br /&gt;</code>」的方法在Markdown中并不合适，Markdown中的	email	式的区块引用和多段落的列表在使用换行来排版的时候，不但更好用，还方便阅读
-######标题
-Markdown支持两种标题的语法，类Setext和类atx形式。</p>
+<p>的确，需要多费点事（多加空格）来产生<code>&lt;br /&gt;</code>，但是简单地「每个换行都转换为<code>&lt;br /&gt;</code>」的方法在Markdown中并不合适，Markdown中的	email	式的区块引用和多段落的列表在使用换行来排版的时候，不但更好用，还方便阅读</p>
+
+<h6 id="section-3">标题</h6>
+
+<p>Markdown支持两种标题的语法，类Setext和类atx形式。</p>
 
 <p>类Setext形式是用底线的形式，利用<code>=</code>（最高阶标题）和<code>-</code>（第二阶标题），例如：</p>
 
@@ -98,27 +102,40 @@ Markdown支持两种标题的语法，类Setext和类atx形式。</p>
 
 This is an H2
 
-------------- 任何数量的&lt;code&gt;=&lt;/code&gt;都可以有效果。
+-------------
 </code></pre>
+
+<p>任何数量的<code>=</code>都可以有效果。</p>
 
 <p>类Atx形式则是在行首插入1到6个<code>#</code>，对应到标题1到6阶，例如</p>
 
 <pre><code># 这是H1
 ## 这是H2
-###### 这是H6 你也可以选择性的「闭合」类atx样式的标题，这纯粹只是美观用的，若觉得这样看起来比较舒适，你就可以在行尾加上&lt;code&gt;#&lt;/code&gt;，而行尾的&lt;code&gt;#&lt;/code&gt;数量也不用和开头一样（行首的&lt;code&gt;#&lt;/code&gt;字符数量决定标题的阶数）：
+###### 这是H6
+</code></pre>
 
-# 这是H1 #
+<p>你也可以选择性的「闭合」类atx样式的标题，这纯粹只是美观用的，若觉得这样看起来比较舒适，你就可以在行尾加上<code>#</code>，而行尾的<code>#</code>数量也不用和开头一样（行首的<code>#</code>字符数量决定标题的阶数）：</p>
+
+<pre><code># 这是H1 #
 ## 这是H2 ##
-### 这是H3 ###### ######区块引用 Blockquotes Markdown标记区块引用是使用类似 Email 中用&lt;code&gt;&gt;&lt;/code&gt;的引用方式。如果你熟悉在 Email 信件中的引用部分，你就知道怎么在Markdown文件中建立一个区块引用，那么看起来像是你自己先断好行，然后再每行的最前面加上&lt;code&gt;&gt;&lt;/code&gt;：
+### 这是H3 ######
+</code></pre>
 
-&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+<h6 id="blockquotes">区块引用 Blockquotes</h6>
+
+<p>Markdown标记区块引用是使用类似 Email 中用<code>&gt;</code>的引用方式。如果你熟悉在 Email 信件中的引用部分，你就知道怎么在Markdown文件中建立一个区块引用，那么看起来像是你自己先断好行，然后再每行的最前面加上<code>&gt;</code>：</p>
+
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 &gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 &gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 &gt; 
 &gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-&gt; id sem consectetuer libero luctus adipiscing. Markdown也允许你偷懒只在整个段落的第一行最前面加上&lt;code&gt;&gt;&lt;/code&gt;：
+&gt; id sem consectetuer libero luctus adipiscing.
+</code></pre>
 
-&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+<p>Markdown也允许你偷懒只在整个段落的第一行最前面加上<code>&gt;</code>：</p>
+
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
@@ -271,7 +288,7 @@ Here is an example of AppleScript:
 &lt;/code&gt;&lt;/pre&gt; 代码区块中，一般的 Markdown 语法不会被转换，像是星号便只是星号，这表示你可以很容易地以 Markdown 语法撰写 Markdown 语法相关的文件。
 </code></pre>
 
-<h6 id="section-2">分隔线</h6>
+<h6 id="section-4">分隔线</h6>
 <p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
 
 <pre><code>* * *
