@@ -4,7 +4,7 @@
   <title><![CDATA[漫无止境]]></title>
   <link href="http://www.onenotes.net/atom.xml" rel="self"/>
   <link href="http://www.onenotes.net/"/>
-  <updated>2015-02-06T02:12:10+08:00</updated>
+  <updated>2015-02-06T02:15:56+08:00</updated>
   <id>http://www.onenotes.net/</id>
   <author>
     <name><![CDATA[殷楠]]></name>
@@ -480,22 +480,20 @@ title attribute.&lt;/p&gt;
 <p>下面是一个参考式链接的范例：</p>
 
 <pre><code>I get 10 times more traffic from [Google] [1] than from
-[Yahoo] [2] or [MSN] [3].
+[Yahoo] [2] or [MSN] [3].	
+  	[1]: http://google.com/        "Google"
+  	[2]: http://search.yahoo.com/  "Yahoo Search"
+  	[3]: http://search.msn.com/    "MSN Search"
 </code></pre>
-
-  	[1]: http://google.com/        “Google”
-  	[2]: http://search.yahoo.com/  “Yahoo Search”
-  	[3]: http://search.msn.com/    “MSN Search”
 
 <p>如果改成用链接名称的方式写：</p>
 
 <pre><code>I get 10 times more traffic from [Google][] than from
 [Yahoo][] or [MSN][].
+  	[google]: http://google.com/        "Google"
+  	[yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+  	[msn]:    http://search.msn.com/    "MSN Search"
 </code></pre>
-
-  	[google]: http://google.com/        “Google”
-  	[yahoo]:  http://search.yahoo.com/  “Yahoo Search”
-  	[msn]:    http://search.msn.com/    “MSN Search”
 
 <p>上面两种写法都会产生下面的 HTML。</p>
 
